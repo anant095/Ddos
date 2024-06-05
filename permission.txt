@@ -1,0 +1,3 @@
+pip install telebot
+chmod +x z
+python SOUL.py
