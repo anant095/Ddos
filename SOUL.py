@@ -3,8 +3,8 @@ import subprocess #line:3
 import datetime #line:4
 import os #line:5
 import time #line:6
-bot =telebot .TeleBot ('7258346581:AAFhghjRWA1fSODYaf6MqRO_C9mBYQbMcl0')#line:9
-ADMIN_IDS ={"1600832237"}#line:12
+bot =telebot .TeleBot ('6029485714:AAE0NXOIOtBIPpH6BHPjPvoECunXrOkZn9w')#line:9
+ADMIN_IDS ={"811290532"}#line:12
 USER_FILE ="users.txt"#line:15
 LOG_FILE ="log.txt"#line:18
 COOLDOWN_TIME =300 #line:21
@@ -140,12 +140,12 @@ def show_help (OOOOOOO00OO0OOO00 ):#line:177
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @SOULCRACKS, @SOULCRACKS
-Official Channel :- t.me/SOULCRACKS'''#line:189
+Buy From :- @HackingAndroidYTT, @ HackingAndroidYTT
+Official Channel :- t.me/HackingAndroidYTT'''#line:189
     bot .reply_to (OOOOOOO00OO0OOO00 ,OO0O000000O0000O0 )#line:190
 @bot .message_handler (commands =['start'])#line:193
 def welcome_start (O0OOOO00O00O0OO00 ):#line:194
-    OOOO0O0O0O0000O0O =f"👋🏻Welcome to Your Home, {O0OOOO00O00O0OO00.from_user.first_name}! Feel Free to Explore.\n🤖Try To Run This Command : /help \n✅Join :- t.me/KNIGHTMODSSRCS"#line:195
+    OOOO0O0O0O0000O0O =f"👋🏻Welcome to Your Home, {O0OOOO00O00O0OO00.from_user.first_name}! Feel Free to Explore.\n🤖Try To Run This Command : /help \n✅Join :- t.me/HackingAndroidYTT"#line:195
     bot .reply_to (O0OOOO00O00O0OO00 ,OOOO0O0O0O0000O0O )#line:196
 @bot .message_handler (commands =['rules'])#line:199
 def welcome_rules (O0OOOO0O0OOOO0O00 ):#line:200
@@ -176,4 +176,4 @@ def broadcast_message (OOOO0O0OOO00O0O0O ):#line:218
     else :#line:231
         O0OO0OOOOOOO00OO0 ="ONLY OWNER CAN USE."#line:232
     bot .reply_to (OOOO0O0OOO00O0O0O ,O0OO0OOOOOOO00OO0 )#line:233
-bot .polling ()#line:235
+bot .polling ()#line:235 
